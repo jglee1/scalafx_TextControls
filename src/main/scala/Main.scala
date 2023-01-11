@@ -289,7 +289,6 @@ object NewApp7 extends JFXApp3 {
         tree.selectionModel.apply().selectedItem.onChange {
           println("Selected " + tree.selectionModel.apply().getSelectedItems)
         }
-
       }
     }
   }
